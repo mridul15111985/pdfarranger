@@ -26,7 +26,7 @@ from setuptools import setup
 # * setuptools is to old in many distro (ex: Ubuntu 22.04)
 # * The Fedora package relies on wheel so it would not contains translation and
 #   icons
-from distutils.command.build import build
+from setuptools.command.build import build
 
 from os.path import join
 import glob
